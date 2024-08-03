@@ -1,0 +1,13 @@
+https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den
+
+
+Success PAAN:  https://www.cnn.com/2024/07/27/politics/video/trump-christian-vote-vinjamuri-nr-digvid
+Title:  Trump urges Christians to vote: ‘You won’t have to do it again’
+VADER: Title:  {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+TextBlob: Title:  Sentiment(polarity=0.0, subjectivity=0.0)
+VADER: Text:  {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+TextBlob: Text:  Sentiment(polarity=0.018749999999999996, subjectivity=0.61875)
+VADER: Summary:  {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+TextBlob: Summary:  Sentiment(polarity=0.018749999999999996, subjectivity=0.61875)
+VADER: Article Keywords:  {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+TextBlob: Article Keywords:  Sentiment(polarity=0.06666666666666665, subjectivity=0.7000000000000001)
