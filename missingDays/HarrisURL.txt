@@ -1,0 +1,49 @@
+08/12/2024
+linkArray = [
+    "https://www.politico.com/news/2024/08/12/kamala-harris-sorority-pac-0017372608/12/2024",
+    "https://time.com/7009317/reintroduction-of-kamala-harris/",
+    "https://www.cnn.com/2024/08/12/politics/trump-harris-2024-analysis/index.html",
+    "https://www.semafor.com/article/08/12/2024/kamala-harris-short-run-could-end-the-permanent-campaign",
+    "https://theweek.com/politics/kamala-harris-foreign-policy-approach-experience",
+    "https://azmirror.com/briefs/as-kamala-harris-builds-momentum-in-az-democrats-kick-off-ads-to-back-her-bid-for-president/",
+    "https://nmindepth.com/2024/donald-trump-cant-stop-talking-about-kamala-harris-race/",
+    "https://www.politico.com/news/2024/08/12/kamala-harris-5-campaign-questions-00173458",
+    "https://www.vox.com/videos/366577/kamala-harris-explained-president-7-moments",
+    "https://rollcall.com/2024/08/12/toss-up-but-with-an-edge-to-kamala-harris/",
+    "https://www.pbs.org/newshour/politics/past-match-ups-offer-clues-on-how-harris-might-debate-trump",
+    "https://www.theatlantic.com/ideas/archive/2024/08/kamala-harris-politics-ideology-liberal/679419/",
+    "https://www.washingtonpost.com/opinions/2024/08/12/kamala-harris-no-interviews-news-conferences/",
+    "https://www.cjr.org/the_media_today/kamala_harris_media_interviews_press_conferences.php",
+    "https://www.vanityfair.com/news/story/donald-trump-demands-harris-be-disqualified-from-the-election",
+    "https://www.nytimes.com/2024/08/12/opinion/harris-trump-communist.html",
+    "https://www.theguardian.com/us-news/article/2024/aug/12/swifties-kamala-harris-campaign",
+    "https://www.capradio.org/articles/2024/08/12/republicans-target-kamala-harris-california-ness-do-swing-state-voters-care/",
+    "https://theweek.com/politics/trump-harris-crowd-sizes-AI",
+    "https://www.cnn.com/2024/08/12/politics/video/pennsylvania-voters-harris-trump-john-king-aotm-digvid",
+    "https://www.politico.com/news/2024/08/12/kamala-harris-sorority-pac-00173726"
+]
+
+
+08/13/2024
+linkArray = [
+    "https://www.npr.org/2024/08/13/1197958321/its-been-a-minute-weird-tim-walz-kamala-harris",
+    "https://theweek.com/politics/kamala-harris-president-senator-attorney-general-ag-achievements-california",
+    "https://www.nytimes.com/2024/08/13/opinion/ezra-klein-podcast-nate-silver.html",
+    "https://www.bbc.com/news/articles/c3gdjjlydp4o",
+    "https://apnews.com/article/harris-policy-economy-tips-workers-middle-class-e606b41cce817e69a38663cc68ce7ad6",
+    "https://www.msnbc.com/alex-wagner-tonight/watch/-he-has-shrunk-kamala-harris-finds-antidote-to-donald-trump-s-negativity-217119813648",
+    "https://www.cnn.com/2024/08/13/politics/video/swing-state-poll-data-white-voters-college-harris-trump-enten-digvid",
+    "https://www.washingtonpost.com/opinions/2024/08/13/kamala-harris-surge-polls/",
+    "https://www.axios.com/2024/08/13/harris-campaign-google-poltical-ads-news-publishers",
+    "https://www.reuters.com/world/us/harris-detail-plans-cut-costs-key-policy-speech-north-carolina-2024-08-13/",
+    "https://www.factcheck.org/2024/08/harris-drew-a-crowd-in-detroit-but-detractors-spread-bogus-claim-to-the-contrary/",
+    "https://www.theguardian.com/us-news/article/2024/aug/13/kamala-harris-campaign-attack",
+    "https://www.economist.com/united-states/2024/08/13/can-kamala-harris-win-michigan-without-arab-american-voters",
+    "https://apnews.com/article/trump-harris-vance-walz-election-06f4f1fc4b82ce7fe4ee97b9b9941f76",
+    "https://www.nytimes.com/2024/08/13/us/politics/harris-walz-milwaukee-rally-dnc.html",
+    "https://www.npr.org/2024/08/13/g-s1-16886/republicans-for-harris-haley-voters-trump-conservatives-gop-democrats",
+    "https://www.npr.org/transcripts/1197965029",
+    "https://www.nytimes.com/2024/08/13/us/politics/kamala-harris-progressive-ad-campaign.html",
+    "https://www.latimes.com/entertainment-arts/story/2024-08-13/kamala-harris-paris-olympics-2024-tim-walz-doomscrolling",
+    "https://abcnews.go.com/US/wireStory/presented-rise-border-crossings-harris-chose-long-term-112822159"
+]

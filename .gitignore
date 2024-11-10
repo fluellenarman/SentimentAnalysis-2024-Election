@@ -1,2 +1,9 @@
 src/.env
 __pycache__/
+*.pyc
+packages/
+*.pickle
+
+buildAndDeploy.sh
+buildDeployment.sh
+docker.sh

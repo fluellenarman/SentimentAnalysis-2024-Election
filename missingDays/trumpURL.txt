@@ -1,0 +1,48 @@
+08/12/2024
+linkArray = [
+    "https://www.washingtonpost.com/opinions/2024/08/12/trump-age-feel-weight-history-presidency/",
+    "https://www.npr.org/2024/08/12/g-s1-16698/trump-musk-x-interview",
+    "https://nmindepth.com/2024/donald-trump-cant-stop-talking-about-kamala-harris-race/",
+    "https://www.msnbc.com/inside-with-jen-psaki/watch/-at-least-he-s-consistent-brian-tyler-cohen-on-elon-musk-s-failed-interview-with-donald-trump-217030213509",
+    "https://www.axios.com/2024/08/13/trump-elon-musk-interview-2024-x-spaces",
+    "https://www.vanityfair.com/news/story/donald-trump-demands-harris-be-disqualified-from-the-election",
+    "https://www.newsweek.com/donald-trump-trope-multiracial-chameleon-opinion-1938107",
+    "https://variety.com/2024/politics/news/elon-musk-donald-trump-x-interview-1236104757/",
+    "https://www.vanityfair.com/news/story/donald-trump-demands-harris-be-disqualified-from-the-election",
+    "https://www.newsweek.com/donald-trump-trope-multiracial-chameleon-opinion-1938107",
+    "https://www.bbc.com/news/articles/c1k3mwy1ww3o",
+    "https://www.theguardian.com/commentisfree/article/2024/aug/12/donald-trumps-ego-cannot-handle-being-trounced-by-kamala-harris",
+    "https://www.economist.com/united-states/2024/08/12/donald-trump-plays-with-fire-in-atlanta",
+    "https://variety.com/2024/digital/news/donald-trump-returns-x-twitter-1236104163/",
+    "https://www.aljazeera.com/news/2024/8/13/trump-returns-to-x-with-two-hour-elon-musk-chat-hit-by-technical-glitch",
+    "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-new-polls-showing-harris-leading-trump-in-key-battlegrounds",
+    "https://whyy.org/articles/x-interview-donald-trump-elon-musk-tech-issues/",
+    "https://www.msnbc.com/the-last-word/watch/-total-distraction-weissmann-blasts-trump-s-bogus-threat-to-sue-justice-dept-217037893573",
+    "https://www.washingtonpost.com/technology/2024/08/12/trump-returns-x-elon-musk-interview/",
+    "https://www.npr.org/2024/08/12/g-s1-16687/fbi-trump-campaign-iran-hack-investigation",
+    "https://www.cnn.com/2024/08/12/politics/trump-harris-2024-analysis/index.html",
+    "https://variety.com/2024/politics/news/elon-musk-donald-trump-x-interview-1236104757/"
+]
+08/13/2024
+linkArray = [
+    "https://www.pbs.org/newshour/politics/trump-and-musk-discussed-firing-striking-workers-the-uaw-is-now-seeking-an-nlrb-investigation",
+    "https://www.cnn.com/2024/08/13/politics/trump-on-message-conspiracies/index.html",
+    "https://www.theguardian.com/commentisfree/article/2024/aug/13/donald-trump-elon-musk-x-twitter-politician-tech",
+    "https://apnews.com/article/donald-trump-elon-musk-x-twitter-livestream-83d6d07fc0ffef4151c96fc56aeec9ee",
+    "https://www.vanityfair.com/news/story/trump-harris-biden-2016-2024-election",
+    "https://www.aljazeera.com/program/inside-story/2024/8/13/can-x-help-donald-trump-get-back-into-the-white-house",
+    "https://www.thebaltimorebanner.com/opinion/column/donald-trump-flags-support-GPBQZNJS4NBKNEWEUY7EKR2MGA/",
+    "https://www.reuters.com/world/us/elon-musk-interview-trump-x-social-media-network-2024-08-12/",
+    "https://www.msnbc.com/all-in/watch/republicans-worry-trump-s-tone-is-sinking-party-hopes-217108037698",
+    "https://www.poynter.org/commentary/2024/elon-musk-donald-trump-interview-x-twitter-ddos/",
+    "https://www.npr.org/2024/08/13/g-s1-16886/republicans-for-harris-haley-voters-trump-conservatives-gop-democrats",
+    "https://abcnews.go.com/US/uaw-files-federal-labor-charges-donald-trump-elon/story?id=112805960",
+    "https://www.cbsnews.com/news/donald-trump-elon-musk-live-chat-x-glitches-cyber-attack/",
+    "https://www.cnn.com/2024/08/13/business/uaw-trump-musk-charges/index.html",
+    "https://www.vanityfair.com/news/story/donald-trump-elon-musk-interview",
+    "https://www.msnbc.com/alex-wagner-tonight/watch/-he-has-shrunk-kamala-harris-finds-antidote-to-donald-trump-s-negativity-217119813648",
+    "https://www.pbs.org/newshour/politics/trump-campaign-reports-burglary-at-office-in-virginia",
+    "https://www.aljazeera.com/news/2024/8/13/cyberattack-inflation-immigration-top-takeaways-from-trump-musk-chat",
+    "https://www.cnn.com/2024/08/13/politics/video/trump-has-glowing-interview-with-elon-musk",
+    "https://www.msnbc.com/deadline-white-house/watch/donald-trump-and-elon-musk-s-rambling-softball-interview-embody-a-campaign-in-disarray-217089605720"
+]

@@ -5,7 +5,6 @@ import traceback
 from dotenv import load_dotenv
 import os
 
-# PUT CREDENTIALS IN SECRET MANAGER
 def scanTable(session):
     
     dynamodb = session.resource('dynamodb')
@@ -34,8 +33,8 @@ def getItem(session, key_value):
         debugPrint.redPrint("ERROR: ", e)
     return
 
-def putItem(session, item, tableName):
-    dynamodb = session.resource("dynamodb")
+def putItem(item, tableName):
+    dynamodb = boto3.resource("dynamodb")
     table = dynamodb.Table(tableName)
     try:
         response = table.put_item(Item={
@@ -55,18 +54,8 @@ def putItem(session, item, tableName):
             "vaderKeywords": item["vaderKeywords"],
             "textBlobKeywords": item["textBlobKeywords"]
         })
-        # debugPrint.greenPrint("PUT Success: ", response)
         debugPrint.greenPrintAll("PUT ITEM: SUCESS")
     except Exception as e:
         debugPrint.redPrint("ERROR: ", e)
         debugPrint.redPrint("TRACEBACK: ", traceback.print_exc())
     return
-
-def getSession():
-    load_dotenv()
-    session = boto3.Session(
-        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-        region_name=os.getenv("AWS_REGION")
-    )
-    return session

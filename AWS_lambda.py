@@ -1,10 +1,37 @@
+import os
+import boto3
+import botocore
+import sys
+
+sys.path.append("src")
+
 import debugPrint
 import scrapeGoogleNews
 import paan
+import lambdaQueryDB
+import queryDB
 import sys
 from datetime import datetime
-import queryDB
 from decimal import Decimal
+
+def lambda_handler(event, context):
+    print(f'boto3 version: {boto3.__version__}')
+    print(f'botocore version: {botocore.__version__}')
+
+    numPages = 2  # Number of pages to scrape
+    query = 'Donald Trump'
+
+    print("Scraping: ", query, ": START")
+    paanController(query, numPages)
+    print("Scraping: ", query, ": END")
+
+    query = "Kamala Harris"
+
+    print("Scraping: ", query, ": START")
+    paanController(query, numPages)
+    print("Scraping: ", query, ": END")
+    return
+    
 
 def paanController(query, numPages):
     linkArray = scrapeGoogleNews.scrapeGoogleNews(query, numPages)
@@ -107,12 +134,11 @@ def paanController(query, numPages):
                 tableName = "Sentiment_Analysis_Trump"
             elif query == "Kamala Harris":
                 tableName = "Sentiment_Analysis_Harris"
-            
-            session = queryDB.getSession()
 
-            queryDB.putItem(session, data, tableName)
-            debugPrint.greenPrintAll("Success for: " + title)
-            print()
+            lambdaQueryDB.putItem(data, tableName)
+            # session = queryDB.getSession()
+
+            # queryDB.putItem(session, data, tableName)
             # debugPrint.printStatus(data)
             
 def convertVADERToDecimal(vaderDict):
@@ -129,15 +155,3 @@ def convertTextBlobToDecimal(textBlob):
     }
     return outputDict
 
-
-
-query = 'Donald Trump'
-numPages = 2  # Number of pages to scrape
-
-debugPrint.greenPrintAll("========================= Donald Trump =========================")
-paanController(query, numPages)
-
-query = "Kamala Harris"
-
-debugPrint.greenPrintAll("========================= Kamala Harris =========================")
-paanController(query, numPages)

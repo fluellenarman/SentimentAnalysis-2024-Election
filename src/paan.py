@@ -3,8 +3,11 @@
 import nltk
 import debugPrint
 
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+nltk.data.path.append('../nltk_data')
+nltk.data.path.append('/var/task/nltk_data')
+
+# nltk.download('punkt', download_dir="../packages")
+# nltk.download('averaged_perceptron_tagger', download_dir="../packages")
 
 from newspaper import Article
 
